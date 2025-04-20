@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Vida Saudável</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Clínica Vida Saudável</h1>
+    <p>Cuidando da sua saúde com tecnologia e carinho</p>
+  </header>
+
+  <div class="container">
+
+    <section class="services">
+      <h2>Nossos Serviços</h2>
+      <p>Oferecemos uma ampla gama de serviços para garantir seu bem-estar completo:</p>
+      <ul>
+        <li>Consultas médicas com especialistas</li>
+        <li>Exames laboratoriais e de imagem</li>
+        <li>Acompanhamento nutricional personalizado</li>
+      </ul>
+      <div class="services-type">
+        <img src="imagens/consulta.jpg" alt="Consultas Médicas" class="service-img">
+        <p>Consultas médicas com especialistas</p>
+      </div>
+      <div class="services-type">
+        <img src="imagens/laboratorio.jpg" alt="Exames Laboratoriais" class="service-img">
+        <p>Exames laboratoriais</p>
+      </div>
+    </section>
+
+    <section class="team">
+      <h2>Nossa Equipe</h2>
+      <div class="team-member">
+        <img src="imagens/clínico.jpg" alt="Dr. João" class="team-img">
+        <p><strong>Dr. João Silva</strong><br>Clínico Geral</p>
+      </div>
+      <div class="team-member">
+        <img src="imagens/nutricionista-hospitalar.jpg" alt="Nutricionista Ana" class="team-img">
+        <p><strong>Ana Paula</strong><br>Nutricionista</p>
+      </div>
+      <div class="team-member">
+        <img src="imagens/radiologista.jpg" alt="Dr. Carlos" class="team-img">
+        <p><strong>Dr. Carlos Mendes</strong><br>Radiologista</p>
+      </div>
+    </section>
+
+    <section class="form-section">
+      <h2>Saiba Mais</h2>
+      <p>Preencha o formulário abaixo para receber mais informações sobre nossos serviços:</p>
+      <form>
+        <input type="text" name="nome" placeholder="Nome" required>
+        <input type="email" name="email" placeholder="E-mail" required>
+        <input type="text" name="cidade" placeholder="Cidade" required>
+        <select name="estado" required>
+          <option value="">Estado</option>
+          <option value="DF">DF</option>
+          <option value="SP">SP</option>
+          <option value="RJ">RJ</option>
+          <option value="MG">MG</option>
+          <option value="RS">RS</option>
+          <option value="OUTRO">OUTRO</option>
+          <!-- Adicione outros estados conforme necessário -->
+        </select>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+  </div>
+
+</body>
+</html>
