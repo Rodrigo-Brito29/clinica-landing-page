@@ -19,7 +19,7 @@ Uma landing page simples criada com HTML e CSS
 
 1. Clone o repositório:
 
-- git https://github.com/Rodrigo-Brito29/clinica-landing-page/upload
+- git https://github.com/Rodrigo-Brito29/clinica-landing-page/tree/main/clinica
 
 2. Abra o arquivo index.html no seu navegador:
 
